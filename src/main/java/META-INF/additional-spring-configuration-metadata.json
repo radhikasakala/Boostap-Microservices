@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "eureka.client.lease",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.lease'"
+  },
+  {
+    "name": "eureka.client.duration",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.duration'"
+  }
+]}

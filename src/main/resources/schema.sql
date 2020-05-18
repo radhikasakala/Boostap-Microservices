@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS CURRENCY_CONV; 
+CREATE TABLE CURRENCY_CONV( 
+id INT AUTO_INCREMENT PRIMARY KEY, 
+country VARCHAR(250) NOT NULL, 
+conversionfactor VARCHAR(250) NOT NULL
+);
+INSERT INTO CURRENCY_CONV (country, conversionfactor) VALUES
+  ('India', 'INR'),
+  ('US', 'DOLLAR'),
+  ('Riyadh', 'Riyal');
